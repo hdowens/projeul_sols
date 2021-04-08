@@ -28,7 +28,7 @@ q12 - first triangluar number to have more than 500 divisors
 
 q13 - first ten digits of the sum of the following one-hundred 50-digit numbers
 
-q14 - number under 1,000,00 that produces the longest Collatz sequence
+q14 - number under 1,000,000 that produces the longest Collatz sequence
 
 q15 - How many route through a 20x20 grid only going right and down ( combinatoric issue, R and D permutations)
 
