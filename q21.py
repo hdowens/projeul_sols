@@ -13,19 +13,17 @@ def d(n):
         isum += i
     return isum
 
-
-
 li = []
+sumof = 0
 for i in range(1,10001):
     s = d(i)
     if d(s) == i and s != i:
         if i not in li and s not in li:
             li.append(i)
             li.append(s)
-            print("Amicable sum of ->",i, "->",s)
+            sumof +=(i+s)
+            
+print(sumof)
+           
     
-su = 0    
-for i in li:
-    su += i
-    
-print(su)
+
