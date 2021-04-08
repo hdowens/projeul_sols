@@ -42,3 +42,5 @@ q18 - max path sum through a triangle, solved with dynamic programming
 q19 - how many sundays between 1901 and 2001. Used python's datetime library to get more experience with it.
 
 q20 - factorial digit sum of 100!, using recursion
+
+q21 - sum of amicable numbers below 10000
