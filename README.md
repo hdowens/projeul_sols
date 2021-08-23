@@ -4,7 +4,7 @@ my project euler solutions. either in C or Pyhon3.
 
 q1 - fizzbuzz
 
-q2 - sum of even favlues Fibonacci numbers
+q2 - sum of even values Fibonacci numbers
 
 q3 - largest prime factors
 
