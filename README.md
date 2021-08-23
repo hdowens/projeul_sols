@@ -44,3 +44,5 @@ q19 - how many sundays between 1901 and 2001. Used python's datetime library to 
 q20 - factorial digit sum of 100!, using recursion
 
 q21 - sum of amicable numbers below 10000
+
+q26 - longest recurring decimal in the range 1 / 1 <= n <= 1000 . Solved using multiplicative order principle.
