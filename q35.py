@@ -19,8 +19,6 @@ def shift(n):
     if len(l) == 1:
         if n == 2 or n == 3 or n == 5 or n == 7:
             return n
-        else:
-            return None
     tmp = l[len(str(n))-1]
     l[len(str(n))-1] = l[0]
     for j in range(0,len(l)): 
