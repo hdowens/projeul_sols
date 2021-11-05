@@ -52,3 +52,5 @@ q25 - fib qu again, first num with 1000 digits
 q26 - longest recurring decimal in the range 1 / 1 <= n <= 1000 . Solved using multiplicative order principle.
 
 q35 - circular primes, how many below one million, solved with a function I wrote to shift integers by pos
+
+q36 - palindromic pairs of base 10 and base 2, below one million
