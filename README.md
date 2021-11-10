@@ -47,6 +47,8 @@ q21 - sum of amicable numbers below 10000
 
 q22 - name scores, file handling to produce value of letters in words with respect to position in the list
 
+q23 - all numbers which cannot be written as the sum of two abundant numbers
+
 q25 - fib qu again, first num with 1000 digits
 
 q26 - longest recurring decimal in the range 1 / 1 <= n <= 1000 . Solved using multiplicative order principle.
