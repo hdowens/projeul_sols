@@ -58,3 +58,5 @@ q35 - circular primes, how many below one million, solved with a function I wrot
 q36 - palindromic pairs of base 10 and base 2, below one million
 
 q37 - sum of all of the left and right truncatable primes
+
+q40 - champernowne's constant qu
