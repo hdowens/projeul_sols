@@ -64,6 +64,8 @@ q30 - sum of all the numbers which are themselves a sum of fifth powers of their
 
 q31 - coin sums, how many ways to make £2 with all available British coins. Dynamic programming solution used.
 
+q32 - Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital.
+
 q35 - circular primes, how many below one million, solved with a function I wrote to shift integers by pos
 
 q36 - palindromic pairs of base 10 and base 2, below one million
