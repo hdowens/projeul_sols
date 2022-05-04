@@ -60,7 +60,7 @@ q27 - Find the product of the coefficients, and , for the quadratic expression t
 q28 - sum of the diagonals in a 1001 x 1001 number spiral matrix, solved with a few simple observations such as the step of 
 the diagonal numbers increasing by 2 for every 4 numbers in the diagonal ( the four corners )
 
-q30 - sum of all the numbers which are themselves a sum of fifth powers of their digits. Solved with a loop and a formula for finding the limit to the loop.
+q30 - sum of all the numbers which are themselves a sum of fifth powers of their digits. Solved with a loop and a formula for finding the limit to the loop. I wrote a generic solution for any power, instead of just 5 with two functions.
 
 q35 - circular primes, how many below one million, solved with a function I wrote to shift integers by pos
 
