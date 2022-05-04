@@ -53,6 +53,8 @@ q25 - fib qu again, first num with 1000 digits
 
 q26 - longest recurring decimal in the range 1 / 1 <= n <= 1000 . Solved using multiplicative order principle.
 
+q27 - Find the product of the coefficients, and , for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n = 0. Solved with a half brute force function. If we assume n = 0, b therefore must be prime, so we can reduce problem space from b to just primes.
+
 q35 - circular primes, how many below one million, solved with a function I wrote to shift integers by pos
 
 q36 - palindromic pairs of base 10 and base 2, below one million
