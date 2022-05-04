@@ -1,5 +1,4 @@
 from timeit import default_timer
-from itertools import count
 
 def is_pandigital(nums):
     if ''.join(sorted(str(nums))[0:9]) == "123456789":
