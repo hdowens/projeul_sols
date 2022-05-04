@@ -49,6 +49,8 @@ q22 - name scores, file handling to produce value of letters in words with respe
 
 q23 - all numbers which cannot be written as the sum of two abundant numbers
 
+q24 - millionth lexicographic permutation of the decimal digits, in lexicographical order.
+
 q25 - fib qu again, first num with 1000 digits
 
 q26 - longest recurring decimal in the range 1 / 1 <= n <= 1000 . Solved using multiplicative order principle.
