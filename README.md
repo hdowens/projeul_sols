@@ -68,4 +68,4 @@ q36 - palindromic pairs of base 10 and base 2, below one million
 
 q37 - sum of all of the left and right truncatable primes
 
-q40 - champernowne's constant qu
+q40 - sum of the first, tenth, hundredth, thousandeth, ten thousandeth, hundred thousandeth and millionth digits of champernownes constant. 
