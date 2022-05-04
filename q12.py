@@ -1,10 +1,28 @@
-from functools import reduce
-import time
-start = time.time()
-n = 1
-list_divs = []
-while len(list_divs) < 500:
-    tri_n = (n*n+n)/2 # Generates the triangle number T(n)
-    list_divs = list(set(reduce(list.__add__,([i, int(tri_n//i)] for i in range(1, int(pow(tri_n, 0.5) + 1)) if tri_n % i == 0)))) # this is the factor generator for any number n
-    n+=1
-print(tri_n, time.time() - start)
+from math import sqrt
+import timeit
+
+def div(n):
+    lst = list()
+    for i in range(1,int(sqrt(n))):
+        if n % i == 0:
+            lst.append(i)
+            lst.append(n//i)
+    return lst
+
+def get_answer():
+    i = 2
+    n = 1
+    while True:
+        if len(div(n))> 500:
+            return n
+        n = i+n
+        i+=1
+
+if __name__ == "__main__":
+    start = timeit.default_timer()
+    
+    print(get_answer())
+
+    stop = timeit.default_timer()
+
+    print("Time taken -> ",stop-start)
