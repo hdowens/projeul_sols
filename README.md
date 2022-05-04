@@ -57,6 +57,9 @@ q26 - longest recurring decimal in the range 1 / 1 <= n <= 1000 . Solved using m
 
 q27 - Find the product of the coefficients, and , for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n = 0. Solved with a half brute force function. If we assume n = 0, b therefore must be prime, so we can reduce problem space from b to just primes.
 
+q28 - sum of the diagonals in a 1001 x 1001 number spiral matrix, solved with a few simple observations such as the step of 
+the diagonal numbers increasing by 2 for every 4 numbers in the diagonal ( the four corners )
+
 q35 - circular primes, how many below one million, solved with a function I wrote to shift integers by pos
 
 q36 - palindromic pairs of base 10 and base 2, below one million
