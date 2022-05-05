@@ -72,4 +72,6 @@ q36 - palindromic pairs of base 10 and base 2, below one million
 
 q37 - sum of all of the left and right truncatable primes
 
+q39 - Find the permieter of a right angled triangle below 1000 which maximising the amount of solutions to this triangle 
+
 q40 - sum of the first, tenth, hundredth, thousandeth, ten thousandeth, hundred thousandeth and millionth digits of champernownes constant. 
