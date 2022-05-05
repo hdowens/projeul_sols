@@ -66,6 +66,8 @@ q31 - coin sums, how many ways to make £2 with all available British coins. Dyn
 
 q32 - Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital.
 
+q34 - sum of all numbers which are equal to the sum of the factorial of each individual digit of that number
+
 q35 - circular primes, how many below one million, solved with a function I wrote to shift integers by pos
 
 q36 - palindromic pairs of base 10 and base 2, below one million
