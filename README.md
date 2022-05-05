@@ -1,6 +1,7 @@
 # projeul_sols
 My solutions to the online mathematical coding challenges - Project Euler. Written mostly in Python3 and some in C.
 my project euler solutions. either in C or Python3.
+https://projecteuler.net/archives
 
 q1 - fizzbuzz
 
@@ -65,6 +66,8 @@ q30 - sum of all the numbers which are themselves a sum of fifth powers of their
 q31 - coin sums, how many ways to make £2 with all available British coins. Dynamic programming solution used.
 
 q32 - Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital.
+
+q33- non-trivial digit cancelling fractions
 
 q34 - sum of all numbers which are equal to the sum of the factorial of each individual digit of that number
 
