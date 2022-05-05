@@ -75,3 +75,5 @@ q37 - sum of all of the left and right truncatable primes
 q39 - Find the permieter of a right angled triangle below 1000 which maximising the amount of solutions to this triangle 
 
 q40 - sum of the first, tenth, hundredth, thousandeth, ten thousandeth, hundred thousandeth and millionth digits of champernownes constant. 
+
+q42 - By converting each letter in a word to a number corresponding to its alphabetical position and adding these values we form a word value. For example, the word value for SKY is 19 + 11 + 25 = 55 = t10. If the word value is a triangle number then we shall call the word a triangle word. Find all the triangle words from a list of 16K words. Included some optimisation by finding the biggest possible number and reducing range of triangle numbers to this.
