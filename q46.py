@@ -20,7 +20,6 @@ def get_answer():
     while True:
         if not is_prime(count):
             if golbach_conj(count):
-                print("Num found -> ",count)
                 return count
         count += 2
         
