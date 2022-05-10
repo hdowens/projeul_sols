@@ -21,12 +21,8 @@ def substring(x):
 
 
 def get_answer():
-    lmax = 0
     perm_list = ["".join(num) for num in permutations("0123456789")]
-    for num in perm_list:
-        if substring(num):
-            lmax += int(num)
-    return lmax
+    return sum(int(num) for num in perm_list if substring(num))
 
 if __name__ == "__main__":
     start = default_timer()
