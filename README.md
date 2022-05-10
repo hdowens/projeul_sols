@@ -4,7 +4,7 @@ my project euler solutions. either in C or Python3.
 https://projecteuler.net/archives
 
 ## Why do this?
-I knew I was interested in mathematical side of the industry, so after researched for a while I came across project euler. I challenged myself to do the first few puzzles, and it went from there. It has taught me a lot about python, and mathematical coding.
+I knew I was interested in mathematical side of the industry, so after researching for projects for a while I came across project euler. I challenged myself to do the first few puzzles, and it went from there. It has taught me a lot about python, and mathematical coding.
 
 **q1** - fizzbuzz
 
