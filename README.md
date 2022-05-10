@@ -3,7 +3,7 @@ My solutions to the online mathematical coding challenges - Project Euler. Writt
 my project euler solutions. either in C or Python3.
 https://projecteuler.net/archives
 
-*q1* - fizzbuzz
+"q1" - fizzbuzz
 
 q2 - sum of even values Fibonacci numbers
 
