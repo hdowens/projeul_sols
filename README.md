@@ -107,3 +107,5 @@ Find the sum of all 0 to 9 pandigital numbers with this property
 It can be seen that P4 + P7 = 22 + 70 = 92 = P8. However, their difference, 70 − 22 = 48, is not pentagonal.
 
 Find the pair of pentagonal numbers, Pj and Pk, for which their sum and difference are pentagonal and D = |Pk − Pj| is minimised; what is the value of D
+
+**q48** - Last ten digits of the series 1^1 + 1^2 + ... + 1000^1000
