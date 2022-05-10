@@ -1,7 +1,7 @@
 from timeit import default_timer
 from math import sqrt
 
-def isPentagonal(n):
+def is_pentagonal(n):
     n = (sqrt(1 + 24*n)+1)/6
     return n.is_integer()
 
