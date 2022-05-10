@@ -8,7 +8,7 @@ def is_pentagonal(n):
 def get_answer():
     for i in range(144,99999):
         n = i * (2 * i - 1)
-        if isPentagonal(n):
+        if is_pentagonal(n):
             print(n)
 
 if __name__ == "__main__":
