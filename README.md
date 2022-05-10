@@ -1,4 +1,4 @@
-# projeul_sols
+# Project Euler Solutions
 My solutions to the online mathematical coding challenges - Project Euler. Written mostly in Python3 and some in C.
 my project euler solutions. either in C or Python3.
 https://projecteuler.net/archives
