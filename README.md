@@ -115,4 +115,6 @@ Find the pair of pentagonal numbers, Pj and Pk, for which their sum and differen
 
 **q45** - Next hexagonal number after 40755 that is also hexagonal, pentagonal and triangular. Since hexagonal nums are a subset of triangular nums, if a number is hexagonal it is therefore triangluar, so you don't need to check it.
 
+**q46** - Proof of Goldbach's weak conjecture, What is the smallest odd composite that cannot be written as the sum of a prime and twice a square? Solved by rearranging the equation and finding the first number that did not satisfy it.
+
 **q48** - Last ten digits of the series 1^1 + 1^2 + ... + 1000^1000
