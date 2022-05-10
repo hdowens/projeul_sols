@@ -113,4 +113,6 @@ It can be seen that P4 + P7 = 22 + 70 = 92 = P8. However, their difference, 70 â
 
 Find the pair of pentagonal numbers, Pj and Pk, for which their sum and difference are pentagonal and D = |Pk âˆ’ Pj| is minimised; what is the value of D
 
+**q45** - Next hexagonal number after 40755 that is also hexagonal, pentagonal and triangular. Since hexagonal nums are a subset of triangular nums, if a number is hexagonal it is therefore triangluar, so you don't need to check it.
+
 **q48** - Last ten digits of the series 1^1 + 1^2 + ... + 1000^1000
