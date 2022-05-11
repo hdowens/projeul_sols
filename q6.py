@@ -1,14 +1,3 @@
-import math
+from math import pow
 
-total = 0
-for x in range(1,101):
-    total += x
-
-sum_sq = pow(total,2)
-
-sq_tot = 0
-for x in range(1,101):
-    sq_tot += pow(x,2)
-
-
-print("diff:" ,sum_sq-sq_tot)
+print("diff:" ,pow(sum(x for x in range(1,101)),2)-sum(pow(x,2) for x in range(1,101)))
