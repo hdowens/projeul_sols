@@ -8,8 +8,7 @@ def compare(list1, list2 ,list3):
 def get_answer():
     for i in list(sieve.primerange(1450,10000)):
         for j in range(round((10000-i) / 2),1,-1):
-            iter1 = i + j
-            iter2 = i + (j * 2)
+            iter1,iter2 = i + j, i + (j * 2)
             if isprime(iter1) and isprime(iter2):
                 if(compare([int(i) for i in str(i)],[int(i) for i in str(iter1)],[int(i) for i in str(iter2)])):
                     print("".join([str(i) for i in [int(i) for i in str(i)]])
