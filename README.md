@@ -6,6 +6,8 @@ https://projecteuler.net/archives
 ## Why do this?
 I knew I was interested in mathematical side of the industry, so after researching for projects for a while I came across project euler. I challenged myself to do the first few puzzles, and it went from there. It has taught me a lot about python, and mathematical coding.
 
+## For example, if you look at my later solutions they are much more pythonic and demonstrate the learning curve I have undergone whilst completing these problems
+
 **q1** - fizzbuzz
 
 **q2** - sum of even values Fibonacci numbers
