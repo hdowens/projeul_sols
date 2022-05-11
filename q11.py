@@ -65,11 +65,11 @@ for i in range(0,20):
             #print(grid[i][j] , grid[i+1][j+1] , grid[i+2][j+2] , grid[i+3][j+3])
             if(diag_total > adjacent_max):
                 adjacent_max = diag_total
-#RIGHT_DIAGONAL
-for i in range(0,16):
-    for j in range(19,3,-1):
-        total = grid[i][j] * grid[i + 1][j - 1] * grid[i + 2][j - 2] * grid[i + 3][j - 3]
-        if(total > adjacent_max):
-            adjacent_max = total
+         
+        #RIGHT_DIAGONAL
+        if i < 17 and j > 3 and j < 19:
+            total = grid[i][j] * grid[i + 1][j - 1] * grid[i + 2][j - 2] * grid[i + 3][j - 3]
+            if(total > adjacent_max):
+                adjacent_max = total
 
 print(adjacent_max)
