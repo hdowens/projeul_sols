@@ -23,12 +23,4 @@ def primes_sieve(limit):
 
     return primes
 
-p = primes_sieve(2000000)
-
-
-count = 0
-for i in p:
-    count +=i
-
-
-print(count)
+print(sum(primes_sieve(2000000)))
