@@ -82,6 +82,8 @@ the diagonal numbers increasing by 2 for every 4 numbers in the diagonal ( the f
 
 **q37** - sum of all of the left and right truncatable primes
 
+**q38** - What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product of an integer with (1,2, ... , n) where n > 1?
+
 **q39** - Find the permieter of a right angled triangle below 1000 which maximising the amount of solutions to this triangle 
 
 **q40** - sum of the first, tenth, hundredth, thousandeth, ten thousandeth, hundred thousandeth and millionth digits of champernownes constant.
