@@ -4,8 +4,6 @@ def palindrome_test(s):
     s = str(s)
     return len(s) < 2 or ( s[0] == s[-1] and palindrome_test(s[1: -1]))
 
-one = 999
-two = 999
 tot = 0
 
 for i in range(999,0,-1):
