@@ -132,3 +132,6 @@ There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, ex
 What 12-digit number do you form by concatenating the three terms in this sequence?
 
 **q50** - Which prime, below one-million, can be written as the sum of the most consecutive primes?
+
+**q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
+          I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
