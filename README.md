@@ -133,7 +133,7 @@ What 12-digit number do you form by concatenating the three terms in this sequen
 
 **q50** - Which prime, below one-million, can be written as the sum of the most consecutive primes?
 
-**q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million?
+**q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million? Wrote a function which returns the nCr, combinations, given the formula n! / r! * (n-r)! . I then wrote a one-liner pythonic solution using sequential statements in list comprehension to include a double for loop and control statement ( if our n > 1,000,000)
 
 **q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
           I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
