@@ -1,7 +1,7 @@
 from timeit import default_timer
 
 def decrypt(text, key):
-    #this function decrypts the text given the key. It XOR's the current character as text[i] with the ascii value
+    #this function decrypts the text given the key. It XOR's the current character at text[i] with the ascii value
     #of whatever character is at key[i % 3] (just key[0,1,2] over and over again.) for all the characters in the encrypted
     #message.
     return "".join(chr(text[i]^ord(key[i % 3])) for i in range(len(text)))
