@@ -13,6 +13,8 @@ I knew I was interested in mathematical side of the industry, so after researchi
           
 **q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million? Wrote a function which returns the nCr, combinations, given the formula n! / r! * (n-r)! . I then wrote a one-liner pythonic solution using sequential statements in list comprehension to include a double for loop and control statement ( if our n > 1,000,000)
 
+**q59** - XOR encryption question, using a key with contains 3 lower case letters. The description is very long, find it here -> https://projecteuler.net/problem=59 .
+
 **q50** - Which prime, below one-million, can be written as the sum of the most consecutive primes?
 
 What 12-digit number do you form by concatenating the three terms in this sequence?
