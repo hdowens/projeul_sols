@@ -11,17 +11,17 @@ I knew I was interested in mathematical side of the industry, so after researchi
 **q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
           I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
           
+**q58** - In the first one-thousand expansions of the square root of 2, how many fractions contain a numerator with more digits than the denominator?
+          
 **q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million? Wrote a function which returns the nCr, combinations, given the formula n! / r! * (n-r)! . I then wrote a one-liner pythonic solution using sequential statements in list comprehension to include a double for loop and control statement ( if our n > 1,000,000)
 
 **q59** - XOR encryption question, using a key with contains 3 lower case letters. The description is very long, find it here -> https://projecteuler.net/problem=59 .
 
 **q50** - Which prime, below one-million, can be written as the sum of the most consecutive primes?
 
-What 12-digit number do you form by concatenating the three terms in this sequence?
-
-There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, exhibiting this property, but there is one other 4-digit increasing sequence.
-
 **q49** - The arithmetic sequence, 1487, 4817, 8147, in which each of the terms increases by 3330, is unusual in two ways: (i) each of the three terms are prime, and, (ii) each of the 4-digit numbers are permutations of one another.
+There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, exhibiting this property, but there is one other 4-digit increasing sequence.
+What 12-digit number do you form by concatenating the three terms in this sequence?
 
 **q48** - Last ten digits of the series 1^1 + 1^2 + ... + 1000^1000
 
