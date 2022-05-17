@@ -51,7 +51,7 @@ append the current i to that list corresponding to that value in the list.
 cur_cube is a permutation, so append it to the list
 {'012334556789'} = [5027,7061, 7202]
 
-If it's not in the list, it becomes a new entry in the dictionary. Keep going until one of the 
+If it's not in the list, it becomes a new entry in the dictionary with it's own list. Keep going until one of the 
 entries' lists' length is 5, and if so print out all entries for that integer and the first
 cube number is our answer.
 """
