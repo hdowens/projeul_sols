@@ -11,6 +11,8 @@ I knew I was interested in mathematical side of the industry, so after researchi
 **q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
           I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
           
+**q62** - Find the smallest cube for which exactly five permutations of its digits are cube.
+          
 **q58** - In the first one-thousand expansions of the square root of 2, how many fractions contain a numerator with more digits than the denominator?
           
 **q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million? Wrote a function which returns the nCr, combinations, given the formula n! / r! * (n-r)! . I then wrote a one-liner pythonic solution using sequential statements in list comprehension to include a double for loop and control statement ( if our n > 1,000,000)
