@@ -19,6 +19,8 @@ I knew I was interested in mathematical side of the industry, so after researchi
 
 **q59** - XOR encryption question, using a key with contains 3 lower case letters. The description is very long, find it here -> https://projecteuler.net/problem=59 .
 
+**q58** - Prime spirals, ratio of primes in the diagonals to nonprimes. -> https://projecteuler.net/problem=58. Interestingly, the slowest part of the algorithm is checking to see if a number is prime or not ,as I'd managed to keep the rest of it to additions and a single modulus. Looking at other soltuions ,I stumbled across the Miller-Rabin primality test and implementation which I tried in my code and it brought it down from 2.8 to 0.9. After, I went and researched about it. Note theat implementation is not mine, and I have commented it out for that reason. I saw no problem with leaving this in the file due to the fact I already had solved the problem, and that this is learning exericse.
+
 **q50** - Which prime, below one-million, can be written as the sum of the most consecutive primes?
 
 **q49** - The arithmetic sequence, 1487, 4817, 8147, in which each of the terms increases by 3330, is unusual in two ways: (i) each of the three terms are prime, and, (ii) each of the 4-digit numbers are permutations of one another.
