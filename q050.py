@@ -40,7 +40,7 @@ def get_answer():
                 ans = sum
                 consec_max = consec
 
-    //print("LONGEST SUM IS -> ", ans, "with this many digits -> ",consec_max)
+    #print("LONGEST SUM IS -> ", ans, "with this many digits -> ",consec_max)
     return ans
 
 
