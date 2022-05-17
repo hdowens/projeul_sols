@@ -63,7 +63,6 @@ def compute():
         count += 1
         if count % 4 == 0:
             if Fraction(prime_count, (2*step) + 1) < Fraction(1,10):
-                print("PRIME RATIO FOUND BELOW 10% -> ",step+1)
                 break
             step += 2
         if is_prime(iter):
@@ -76,7 +75,7 @@ if __name__ == "__main__":
       
     start = default_timer()
 
-    compute()
+    print(compute())
 
     stop = default_timer()
 
