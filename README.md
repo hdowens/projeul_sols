@@ -19,7 +19,7 @@ I knew I was interested in mathematical side of the industry, so after researchi
 
 **q57** - In the first one-thousand expansions of the square root of 2, how many fractions contain a numerator with more digits than the denominator?
 
-**q56** - Considering natural numbers of the form, ab, where a, b < 100, what is the maximum digital sum?
+**q56** - Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum digital sum?
 
 **q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million? Wrote a function which returns the nCr, combinations, given the formula n! / r! * (n-r)! . I then wrote a one-liner pythonic solution using sequential statements in list comprehension to include a double for loop and control statement ( if our n > 1,000,000)
 
