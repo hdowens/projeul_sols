@@ -21,6 +21,8 @@ I knew I was interested in mathematical side of the industry, so after researchi
 
 **q56** - Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum digital sum?
 
+**q55** - How many Lychrel numbers are there below ten-thousand?
+
 **q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million? Wrote a function which returns the nCr, combinations, given the formula n! / r! * (n-r)! . I then wrote a one-liner pythonic solution using sequential statements in list comprehension to include a double for loop and control statement ( if our n > 1,000,000)
 
 **q52** - Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain the same digits.
