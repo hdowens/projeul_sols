@@ -11,6 +11,8 @@ I knew I was interested in mathematical side of the industry, so after researchi
 **q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
           I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
           
+**q65** - Find the sum of digits in the numerator of the 100th convergent of the continued fraction for Euler's constant.
+          
 **q62** - Find the smallest cube for which exactly five permutations of its digits are cube.
                     
 **q59** - XOR encryption question, using a key with contains 3 lower case letters. The description is very long, find it here -> https://projecteuler.net/problem=59 .
