@@ -23,6 +23,8 @@ I knew I was interested in mathematical side of the industry, so after researchi
 
 **q55** - How many Lychrel numbers are there below ten-thousand?
 
+**q54** - Algorithm to interpret and solve poker hands. See whole description -> https://projecteuler.net/problem=54
+
 **q53** - How many, not necessarily distinct, values of (nCr) for 1 <= n <= 100, are greater than one-million? Wrote a function which returns the nCr, combinations, given the formula n! / r! * (n-r)! . I then wrote a one-liner pythonic solution using sequential statements in list comprehension to include a double for loop and control statement ( if our n > 1,000,000)
 
 **q52** - Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain the same digits.
