@@ -10,7 +10,9 @@ I knew I was interested in mathematical side of the industry, so after researchi
 
 **q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
           I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
-          
+
+**q71**- By listing the set of reduced proper fractions for d ≤ 1,000,000 in ascending order of size, find the numerator of the fraction immediately to the left of 3/7. I used a Farey sequence to get the answer to this.
+
 **q69** - Find the value of n ≤ 1,000,000 for which n/φ(n) is a maximum. Phi(n) being Euler's totient function.
           
 **q65** - Find the sum of digits in the numerator of the 100th convergent of the continued fraction for Euler's constant.
