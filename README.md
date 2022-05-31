@@ -8,6 +8,21 @@ I knew I was interested in mathematical side of the industry, so after researchi
 
 ## For example, if you look at my later solutions they are much more pythonic and demonstrate the learning curve I have undergone whilst completing these problems
 
+**q97** - However, in 2004 there was found a massive non-Mersenne prime which contains 2,357,207 digits: 28433×27830457+1.
+Find the last ten digits of this prime number. Simple one liner in python.
+
+**q92** - A number chain is created by continuously adding the square of the digits in a number to form a new number until it has been seen before.
+
+For example,
+
+44 → 32 → 13 → 10 → 1 → 1
+85 → 89 → 145 → 42 → 20 → 4 → 16 → 37 → 58 → 89
+
+Therefore any chain that arrives at 1 or 89 will become stuck in an endless loop. What is most amazing is that EVERY starting number will eventually arrive at 1 or 89.
+
+How many starting numbers below ten million will arrive at 89?
+As we know it can end at 89 or 1, just a simple while loop to test these conditions.
+
 **q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
           I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
 
