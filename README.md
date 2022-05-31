@@ -13,6 +13,8 @@ I knew I was interested in mathematical side of the industry, so after researchi
 
 **q71**- By listing the set of reduced proper fractions for d ≤ 1,000,000 in ascending order of size, find the numerator of the fraction immediately to the left of 3/7. I used a Farey sequence to get the answer to this.
 
+**q70** - Find the value of n, 1 < n < 107, for which φ(n) is a permutation of n and the ratio n/φ(n) produces a minimum. I brute forced initially, but it was so slow (10ish min) so it needed to be optimised. Explanation of code in comments.
+
 **q69** - Find the value of n ≤ 1,000,000 for which n/φ(n) is a maximum. Phi(n) being Euler's totient function.
           
 **q65** - Find the sum of digits in the numerator of the 100th convergent of the continued fraction for Euler's constant.
