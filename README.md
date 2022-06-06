@@ -24,6 +24,13 @@ Therefore any chain that arrives at 1 or 89 will become stuck in an endless loop
 How many starting numbers below ten million will arrive at 89?
 As we know it can end at 89 or 1, just a simple while loop to test these conditions.
 
+**q79** - Passcode derivation.
+A common security method used for online banking is to ask the user for three random characters from a passcode. For example, if the passcode was 531278, they may ask for the 2nd, 3rd, and 5th characters; the expected reply would be: 317.
+
+The text file, keylog.txt, contains fifty successful login attempts.
+
+Given that the three characters are always asked for in order, analyse the file so as to determine the shortest possible secret passcode of unknown length.
+
 **q76** - How many different ways can one hundred be written as a sum of at least two positive integers?
           I solved this with dyanmic programming. I noticed the recurrence relation from the example and therefore fit the dynamic programming solution I wrote for q31 - coin sums. Just needed a slight edit. Each num, from 0 < num <= 100, is based on the solutions from the number beneath it, except 1 which is there is only 1 solution obviously.
 
