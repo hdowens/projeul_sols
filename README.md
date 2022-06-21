@@ -43,6 +43,8 @@ Given that the three characters are always asked for in order, analyse the file 
 **q67** - Math path sum II, continuation of problem 18. I had already implemented a DP solution so it was a case of copying and pasting previously written code -> see q018.py as well.
           
 **q65** - Find the sum of digits in the numerator of the 100th convergent of the continued fraction for Euler's constant.
+
+**q63** - How many n-digit positive integers exist which are also an nth power?
           
 **q62** - Find the smallest cube for which exactly five permutations of its digits are cube.
                     
