@@ -24,6 +24,8 @@ Therefore any chain that arrives at 1 or 89 will become stuck in an endless loop
 How many starting numbers below ten million will arrive at 89?
 As we know it can end at 89 or 1, just a simple while loop to test these conditions.
 
+**q85** - Although there exists no rectangular grid that contains exactly two million rectangles, find the area of the grid with the nearest solution. Another combinatorics problem. It was easier to reduce the problem size to and n * 1 grid, and you can see for this it grows 1, 3, 6, etc. I.e., n + (n-1) + (n-2) + ... + 1 = n(n + 1) / 2. Adding another dimension m just meant m also followed the same arithmetic progression. So just n(n + 1) / 2 * m(m + 1) / 2. Following that, it was just the case of finding the minimum absolute difference using a simple double loop.
+
 **q79** - Passcode derivation.
 A common security method used for online banking is to ask the user for three random characters from a passcode. For example, if the passcode was 531278, they may ask for the 2nd, 3rd, and 5th characters; the expected reply would be: 317.
 
